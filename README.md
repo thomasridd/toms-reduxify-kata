@@ -1,5 +1,25 @@
-## Tom's React Starter
-This React starter has two pages with sass support. 
+## Tom's Reduxify a React app exercise
+The purpose of this repo is to .
+
+### Basic start
+Clone this repo and run
+
+`npm install` 
+
+### Goal
+At present the React app updates the label when you type into the text box using state on the Home scene
+
+The goal is to have this state stored in a central redux repository
+
+This should be done by adding the following files
+- `store.js`
+- `/scenes/Home/services/label/actions.js`
+- `/scenes/Home/services/label/reducers.js`
+
+You will also, in addition to the regular npm install, need to run
+* `npm install redux redux-react`
+
+The rest is up to you
 
 It is [structured by features](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1) to allow for easier scaling
 
